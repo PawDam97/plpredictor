@@ -1,0 +1,142 @@
+.ilosctabs{
+    margin-right: 10%;
+    margin-right: 10%;
+    float: right;
+    font-size: 2vh;
+    }
+    .ilosctabs ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c9c6c69f;
+    border:4px solid black ;
+    
+    }
+    .ilosctabs li {
+    float: left;
+    
+    }
+    .ilosctabs li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 2vh;
+    text-decoration: none;
+    }
+    .ilosctabs li a:hover{
+    font-weight: bolder;
+    border: 0.2vh solid white;
+    color: white;
+    }
+
+    .table3{
+      width: 80%;
+      margin-bottom: 1%;
+      margin-top: 3%;
+      text-align: center;
+      column-gap: 2rem;
+      table-layout: fixed;
+    margin-left: 10%;
+      border: 5px solid black;
+      
+      }
+      .table3 td,th {
+        
+          height: 3em;
+          padding: 1px 1px;
+          text-align: center;
+          vertical-align: top;
+          font-weight: bolder;
+          
+      }
+      .table3 tbody tr:nth-child(even) td {
+        color: white;
+        font-size:2vh;
+        text-shadow: 2px 2px 2px black;
+          background-color: rgba(202, 202, 202, 0.705);
+      }
+      .table3 tbody tr:nth-child(odd) td{
+            color: white;
+          font-size:2vh;
+          text-shadow: 2px 2px 2px black;
+          background-color: rgba(255, 255, 255, 0.8); 
+      }
+      .table3 tbody tr:hover td{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+      table, thead, tbody, th, td, tr { 
+        display: block; 
+      }
+      
+      thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      
+      tr { border: 1px solid #ccc; }
+      
+      td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 80%; 
+        font-size: 1vw;
+        text-align: right;
+      }
+      
+      td:before { 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 35%; 
+        padding-left: 5%; 
+        padding-top: 5%;
+        white-space: nowrap;
+      }
+      .table3 tbody tr:nth-child(even) td {
+        padding-left: 30%;
+        padding-top: 5%;
+        font-size:1.3vh;
+      }
+      .table3 tbody tr:nth-child(odd) td{
+    padding-left: 30%;
+    padding-top: 5%;
+          font-size:1.3vh;
+      }
+      .table3 td:nth-of-type(1):before { content: "Pozycja: "; }
+      .table3 td:nth-of-type(2):before { content: "Imie: "; }
+      .table3 td:nth-of-type(3):before { content: "Nazwisko: "; }
+      .table3 td:nth-of-type(4):before { content: "Klub: "; }
+      .table3 td:nth-of-type(5):before { content: "Suma: "; }
+h2{
+    font-size: 2px;
+}
+      .ilosctabs{
+        margin-bottom: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 0px;
+        font-size: 1.65vh;
+     
+        }
+.ilosctabs li a {
+     display: block;
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     padding: 0.81vh;
+     text-decoration: none;
+      }
+  .ilosctabs li a:hover{
+        font-weight: bold;
+        border: 0.1vh solid white;
+        color: white;
+        }
+    }

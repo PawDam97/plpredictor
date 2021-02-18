@@ -1,0 +1,201 @@
+.Maine{
+    position: relative;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: rgba(1, 27, 4, 0.596);
+    font-size: 2vh;
+    color: white;
+    text-align: justify;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.Ikonka{
+   
+    margin-top: 1vw;
+    width: 100%;
+    height: auto;
+}
+.Ikonka2{
+   
+    margin-top: 1vw;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3vw;
+}
+.tekst{
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+.tytultekst{
+    font-size: 3vh;
+    margin-bottom: -2vw;
+}
+@media screen and (max-width: 1060px) {
+    .question1{
+        margin-bottom: 50vw;
+        margin-top: 50px;
+    }
+    .question3{
+        padding-top: 30vw;
+        padding-right: 4vw;
+
+    }
+    .tekst{
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+    .Ikonka{
+        width: 17em;
+        margin-bottom: 5vw;
+     
+    }
+    .Ikonka2{
+        width: 17em;
+        margin-bottom: 5vw;
+    }
+   
+   a.button1{
+    display:block;
+    margin:0.4em auto;
+    border:0.1em solid #FFFFFF;
+   }
+   .iloscsezonow{
+    margin-right: 30%;
+    margin-bottom: 5%;
+    }
+}
+.Footere{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: rgba(0, 0, 0, 0.808);
+    font-size: 2vh;
+    height: 6em;
+    color: white;
+    width: 100%;
+}
+.form-group{
+color: black;
+  }
+  .versus{
+      text-align: center;
+      font-size: 5vh;
+  }
+  .tytul{
+      margin-top: 5%;
+  }
+  .tytul2{
+      margin-top: -4%;
+      margin-bottom: 5%;
+      text-align: center;
+      font-size: 3vh;
+  }
+  .Linia{
+    background-color: white;
+    width: 100%;
+    height: 0.3vw;
+}
+ .Linia2{
+    background-color: white;
+    width: 101%;
+    height: 0.3vw;
+
+}
+
+a.button1{
+    width: 30%;
+    display: inline-block;
+    padding:0.35em 1.2em;
+    border:0.3em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+.buttonn{
+text-align: center;
+margin-top: 5%;
+}
+.question1{
+    width:5vw;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.question2{
+    width:3vw;
+    margin-top: 90%;
+    margin-left: 35%;
+}
+.question3{
+    width:8vw;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+.stopkatekst{
+    font-size: 2vh;
+    margin-left: 4vh;
+    margin-top: 3vh;
+}
+.stopkakontakt{
+    font-size: 2vh;
+    margin-right: 125vh;
+    margin-top: 4vh;
+    color: white;
+}
+.Contact{
+    color: white;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.Contact:hover{
+    border-bottom: solid 2px white;
+    color: white;
+}
+@media screen and (max-width: 1100px) {
+    .stopkakontakt{
+        font-size: 2vh;
+        margin-right: 5vh;
+        margin-top: 4vh;
+        color: white;
+    }
+    .versus{
+        
+        font-size: 2vh;
+        margin-bottom: 4vh;
+    }
+}
+.iloscsezonow{
+    margin-left: 24%;
+    margin-bottom: 5%;
+    font-size: 2vh;
+    }
+    .iloscsezonow ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #c9c6c69f;
+    border:4px solid black ;
+    margin-left: 2vh;
+    }
+    .iloscsezonow li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 2.5vh;
+    text-decoration: none;
+    }
+    .iloscsezonow li a:hover{
+    font-weight: bolder;
+    color: white;
+    }
+.szanse{
+    margin-bottom: -10%;
+    margin-left: 5%;
+}

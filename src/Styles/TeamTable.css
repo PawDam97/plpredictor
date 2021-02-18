@@ -1,0 +1,100 @@
+.table2, .tablePrediction{
+  width: 90%;
+  margin-bottom: 1%;
+  margin-top: 3%;
+  text-align: center;
+  column-gap: 2rem;
+  table-layout: fixed;
+margin-left: 5%;
+  border: 5px solid black;
+    
+    }
+    .table2 td,th, .tablePrediction td,th{
+      
+        height: 3em;
+        padding: 1px 1px;
+        text-align: center;
+        vertical-align: top;
+        font-weight: bolder;
+        
+    }
+    .table2 tbody tr:nth-child(even) td, .tablePrediction tbody tr:nth-child(even) td{
+      color: white;
+      font-size:1.8vh;
+      text-shadow: 2px 2px 2px black;
+      background-color: rgba(202, 202, 202, 0.705);
+    }
+    .table2 tbody tr:nth-child(odd) td, .tablePrediction tbody tr:nth-child(odd) td{
+          color: white;
+        font-size:1.8vh;
+        text-shadow: 2px 2px 2px black;
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
+    .tablehead{
+      background-image: linear-gradient(180deg, rgb(0, 73, 39), white);
+        color: white;
+        font-size:1em;
+        text-shadow: 2px 2px 2px black;
+          
+    }
+    .table2 tbody tr:hover td, .tablePrediction tbody tr:hover td{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+      table, thead, tbody, th, td, tr { 
+        display: block; 
+      }
+      
+      thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      
+      tr { border: 1px solid #ccc; }
+      
+      td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 80%; 
+        font-size: 1vw;
+        text-align: right;
+      }
+      
+      td:before { 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 35%; 
+        padding-left: 5%; 
+        padding-top: 5%;
+        white-space: nowrap;
+      }
+      .table2 tbody tr:nth-child(even) td, .tablePrediction tbody tr:nth-child(even) td{
+        padding-left: 30%;
+        padding-top: 5%;
+        font-size:1.3vh;
+      }
+      .table2 tbody tr:nth-child(odd) td, .tablePrediction tbody tr:nth-child(odd) td{
+    padding-left: 30%;
+    padding-top: 5%;
+          font-size:1.3vh;
+      }
+      td:nth-of-type(1):before { content: "Pozycja: "; }
+      td:nth-of-type(2):before { content: "Nazwa: "; }
+      td:nth-of-type(3):before { content: "Gole strzelone: "; }
+      td:nth-of-type(4):before { content: "Gole stracone: "; }
+      td:nth-of-type(5):before { content: "Rezultat bramek: "; }
+      td:nth-of-type(6):before { content: "Żółte kartki: "; }
+      td:nth-of-type(7):before { content: "Czarwone kartki: "; }
+      td:nth-of-type(8):before { content: "Punkty: "; }
+
+      .tablePrediction td:nth-of-type(1):before { content: "Gole: "; }
+      .tablePrediction td:nth-of-type(2):before { content: "Dom: "; }
+      .tablePrediction td:nth-of-type(3):before { content: "Wyjazd: "; }
+    }

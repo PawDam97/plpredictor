@@ -1,0 +1,88 @@
+.Ikonanextque{
+    width: 75%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.nextquetekst{
+    font-size: 4vh;
+    margin-top: 20vh;
+    text-align: left;
+    margin-left: 2vh;
+}
+.carousel{
+  width: 100%;
+}
+.match{
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.matchbutton{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.matchbutton button{
+    width: 15vh;
+    display: inline-block;
+    padding:0.35em 1.2em;
+    border:0.3em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight:250;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    .carouselitem{
+      width: 220%;
+    }
+    .matchbutton button:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+      }
+      @media screen and (max-width: 1060px) {
+        .Ikonanextque{
+            margin-top: 1vh;
+            margin-left: 1vh;
+            margin-right: 5vh;
+            width: 200%;
+        }
+        .nextquetekst{
+            font-size: 4vh;
+            margin-top: 10vh;
+            text-align: left;
+            margin-left: 7vh;
+        }
+      }
+      .infotitle{
+          font-size: 3vh;
+          text-align: center;
+          margin-bottom: 2vh;
+      }
+      .infosubtitle{
+        font-size: 2.5vh;
+        text-align: center;
+        margin-bottom: 2vh;
+      }
+      .infodata{
+        font-size: 2vh;
+        text-align: center;
+        margin-bottom: 1vh;
+      }
+      .infoscoretitle{
+        font-size: 2.5vh;
+        text-align: center;
+        margin-bottom: 2vh;
+        font-weight: bolder;
+      }
+      .infoscore{
+        font-size: 2vh;
+        text-align: center;
+        margin-bottom: 1vh;
+        font-weight: bolder;
+      }

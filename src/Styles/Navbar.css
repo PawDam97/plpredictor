@@ -1,0 +1,124 @@
+.navbarr{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+.Navbar{
+background-color: black;
+}
+.NavbarFully{
+    font-size: 3vh;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color:rgba(0, 0, 0, 0.801);
+    
+}
+.NavOptions{
+    margin-left: 20px;
+   margin-left: 5vw;
+}
+
+.logo{
+    width: 35vh;
+    margin-left: -8vh;
+    margin-right: -18vh;
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color:rgb(158, 158, 158);
+}
+.navbar li a,
+    .navbar li a:after,
+    .navbar li a:before {
+      transition: all .5s;
+    }
+    .navbar li a:hover {
+        color:greenyellow;
+      }
+      .navbar li a:active{
+          color: white;
+      }
+      .navbar li a:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: rgb(0, 0, 0);
+        height: 5%;
+      }
+ .Historical{
+     text-decoration: none;
+ }
+.Main{
+    font-size: 4vh;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: -1vh;
+    border-bottom: 3px solid rgba(15, 15, 15, 0);
+}
+
+.Obecne{
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.Predict{
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.Main:hover{
+    border-bottom: 3px solid greenyellow;
+    animation: pulse 1s infinite;
+    transition: 1s;
+}
+.Predict:hover{
+    border-bottom: 3px solid greenyellow;
+    animation: pulse 1s infinite;
+    transition: 1s;
+}
+.PredictQue:hover{
+    border-bottom: 3px solid greenyellow;
+    animation: pulse 1s infinite;
+    transition: 1s;
+}
+.Obecne:hover{
+    border-bottom: 3px solid greenyellow;
+    animation: pulse 1s infinite;
+    transition: 1s;
+}
+.Historical:hover{
+    border-bottom: 3px solid greenyellow;
+    animation: pulse 1s infinite;
+    transition: 1s;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.95);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  @media screen and (max-width: 1060px) {
+    .Predict{
+        margin-right: -2vw;
+        margin-left: 0vw;
+    }
+    .Obecne{
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+    .Main{
+        margin-top: 0vw;
+        font-size: 3vh;
+    }
+}
+

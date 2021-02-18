@@ -1,0 +1,103 @@
+.results, .headStats{
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    text-align: center;
+    table-layout: fixed;
+    }
+    .nextque{
+      width: 85%;
+      margin-bottom: 1%;
+      margin-top: 3%;
+      text-align: center;
+      table-layout: fixed;
+      margin-left: 9%;
+      }
+    .results td,th, .nextque td,th, .headStats td,th {
+        height: 3em;
+        padding: 1px 1px;
+        text-align: center;
+        vertical-align: top;
+        font-weight: bolder;
+        
+    }
+    .results tbody tr:nth-child(even) td, .nextque tbody tr:nth-child(even) td{
+      color: white;
+      font-size:1.8vh;
+      text-shadow: 2px 2px 2px black;
+    }
+    .results tbody tr:nth-child(odd) td, .nextque tbody tr:nth-child(odd) td{
+          color: white;
+        font-size:1.8vh;
+        text-shadow: 2px 2px 2px black;
+    }
+    .tablehead{
+        color: white;
+        font-size:1em;
+        text-shadow: 2px 2px 2px black;      
+    }
+    
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+      .results, .nextque, .headStats { 
+        display: block; 
+      }
+      
+      thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      
+      td { 
+
+        position: relative;
+        padding-left: 80%; 
+        font-size: 1vw;
+        text-align: right;
+      }
+      
+      td:before { 
+          
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 35%; 
+        padding-left: 5%; 
+        padding-top: 5%;
+        white-space: nowrap;
+      }
+      .results tbody tr:nth-child(even) td , .nextque tbody tr:nth-child(even) td, .headStats tbody tr:nth-child(even) td{
+        border:none;
+        padding-left: 30%;
+        padding-top: 5%;
+        margin-bottom: 3%;
+        font-size:1.3vh;
+      }
+      .results tbody tr:nth-child(odd) td, .nextque tbody tr:nth-child(odd) td, .headStats tbody tr:nth-child(odd) td{
+        border:none;
+        padding-left: 30%;
+         padding-top: 5%;
+         font-size:1.3vh;
+         margin-bottom: 3%;
+      }
+      .results td:nth-of-type(1):before { content: "Kolejka: "; }
+      .results td:nth-of-type(2):before { content: "Data: "; }
+      .results td:nth-of-type(3):before { content: "Godzina: "; }
+      .results td:nth-of-type(4):before { content: "Dom: "; }
+      .results td:nth-of-type(5):before { content: "Wynik (do przerwy): "; }
+      .results td:nth-of-type(6):before { content: "Wyjazd: "; }
+      .results td:nth-of-type(7):before { content: "Czarwone kartki: "; }
+      .results td:nth-of-type(8):before { content: "Punkty: "; }
+
+      .nextque td:nth-of-type(1):before { content: "Kolejka: "; }
+      .nextque td:nth-of-type(2):before { content: "Data: "; }
+      .nextque td:nth-of-type(3):before { content: "Godzina: "; }
+      .nextque td:nth-of-type(4):before { content: "Dom: "; }
+      .nextque td:nth-of-type(5):before { content: "Wyjazd: "; }
+
+      .headStats td:nth-of-type(1):before { content: "Statystyka"; }
+      .headStats td:nth-of-type(2):before { content: "Wartość"; }
+
+    }
